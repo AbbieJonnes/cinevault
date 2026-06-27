@@ -4,7 +4,7 @@ export default function MovieItem({ movie, onDelete }) {
         <div>
           <h3 className="text-base font-semibold text-white">{movie.title}</h3>
           <p className="text-sm text-gray-400 mt-1">
-            {movie.genre} · {movie.year} · ⭐ {movie.rating}
+            {movie.genre} · {movie.year} · <i class="fa-solid fa-star"></i> {movie.rating}
           </p>
         </div>
         <button
