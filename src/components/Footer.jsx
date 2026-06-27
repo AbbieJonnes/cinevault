@@ -18,19 +18,19 @@ export default function Footer() {
               <li>
                 <a href="https://tiktok.com" target="_blank" rel="noreferrer"
                   className="text-gray-400 hover:text-yellow-400 transition-colors duration-200">
-                  🎵 TikTok
+                  <i class="fa-brands fa-tiktok"></i> TikTok
                 </a>
               </li>
               <li>
                 <a href="https://instagram.com" target="_blank" rel="noreferrer"
                   className="text-gray-400 hover:text-yellow-400 transition-colors duration-200">
-                  📸 Instagram
+                 <i class="fa-brands fa-square-instagram"></i> Instagram
                 </a>
               </li>
               <li>
                 <a href="https://x.com" target="_blank" rel="noreferrer"
                   className="text-gray-400 hover:text-yellow-400 transition-colors duration-200">
-                  🐦 X (Twitter)
+                 <i class="fa-solid fa-x"></i> X (X)
                 </a>
               </li>
             </ul>
@@ -40,9 +40,9 @@ export default function Footer() {
           <div>
             <h4 className="text-yellow-400 font-bold text-base mb-2 uppercase tracking-wider">Contact Us</h4>
             <ul className="flex flex-col gap-2 text-gray-400">
-              <li>📞 <span>0715902970</span></li>
+              <li><i class="fa-solid fa-mobile"></i> <span>0715902970</span></li>
               <li>
-                📧{" "}
+              <i class="fa-solid fa-envelope"></i>{" "}
                 <a href="mailto:abigaelmwangi534@gmail.com"
                   className="hover:text-yellow-400 transition-colors duration-200 break-all">
                   abigaelmwangi534@gmail.com
@@ -55,7 +55,7 @@ export default function Footer() {
   
         {/* Bottom bar */}
         <div className="max-w-xl mx-auto mt-8 pt-6 border-t border-gray-800 text-center text-gray-600 text-xs">
-          © {new Date().getFullYear()} CineVault ·
+          &copy. {new Date().getFullYear()} CineVault ·
         </div>
       </footer>
     );
